@@ -1,7 +1,6 @@
 package com.vishal.jira_clone.repository;
 
 
-import com.vishal.jira_clone.entity.Project;
 import com.vishal.jira_clone.entity.Task;
 import com.vishal.jira_clone.enums.TaskPriority;
 import com.vishal.jira_clone.enums.TaskStatus;
