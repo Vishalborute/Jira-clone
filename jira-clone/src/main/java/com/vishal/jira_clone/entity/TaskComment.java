@@ -16,8 +16,12 @@ public class TaskComment {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "comment_Id")
-    private  Long commentId;
+    private Long commentId;
     private String message;
+
+    public String getMessage() {
+        return message;
+    }
 
     private LocalDateTime createdAt;
 
@@ -28,6 +32,5 @@ public class TaskComment {
     @ManyToOne
     @JoinColumn(name = "user_id")
     private User user;
-
 
 }
